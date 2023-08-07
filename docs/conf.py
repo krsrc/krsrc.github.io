@@ -9,33 +9,20 @@
 project = 'krsrc'
 copyright = '2023, Shinyoung Kim'
 author = 'Shinyoung Kim'
-version = '0.0.1'
-release = version
+release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = {
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.viewcode',
-    'sphinx_rtd_theme',
-}
+extensions = []
 
 templates_path = ['_templates']
-source_suffix = '.rst'
-master_doc = 'index'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-pygments_style = 'sphinx'
+
+
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-# import sphinx_rtd_theme
-html_theme = 'sphinx_rtd_theme'
-# html_theme_path = ["_themes",]
-# html_static_path = ['_static']
-html_theme_options = {
-    'navigation_depth': 5,
-}
+html_theme = 'alabaster'
+html_static_path = ['_static']
