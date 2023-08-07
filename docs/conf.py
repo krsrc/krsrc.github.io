@@ -9,6 +9,8 @@
 project = 'krsrc'
 copyright = '2023, Shinyoung Kim'
 author = 'Shinyoung Kim'
+version = '0.0.1'
+release = version
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -26,7 +28,6 @@ source_suffix = '.rst'
 master_doc = 'index'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 pygments_style = 'sphinx'
-
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
