@@ -16,7 +16,6 @@ release = '0.0.3'
 
 extensions = [
     'sphinx_rtd_theme',
-    'furo',
 ]
 
 templates_path = ['_templates']
