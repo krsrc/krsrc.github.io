@@ -41,7 +41,5 @@ extensions = [
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "furo"
-html_title = "Furo"
-language = "en"
 
 html_static_path = ["_static"]
