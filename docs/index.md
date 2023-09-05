@@ -7,8 +7,8 @@ hide-toc: true
 Korea SKAO Regional Centre
 
 ```{include} ../README.md
-:start-after: <!-- start elevator-pitch -->
-:end-before: <!-- end elevator-pitch -->
+:start-after: <!-- start index page -->
+:end-before: <!-- end index page -->
 ```
 
 
